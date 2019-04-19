@@ -1,7 +1,9 @@
 # vagrant-opflexdev
+
 ## Vagrant Environment for Opflex Development
 
 **To bring up a standalone Opflex dev environment**
+
 cd ubuntu-bionic64/
 vagrant up
 vagrant ssh
@@ -17,7 +19,9 @@ To setup the bridges for this sample run**
 /home/vagrant/data/sample-policy/setup.sh
 
 **To start mock server run**
+
 /usr/bin/run_mock.sh
 
 **From another window start opflex_agent**
+
 /usr/bin/run_opflex.sh
