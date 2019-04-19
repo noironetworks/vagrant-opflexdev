@@ -1,0 +1,14 @@
+{
+    "mac": "ee:fe:b3:2b:c9:1e", 
+    "interface-name": "of-cde81812ffc0", 
+    "ip": [
+        "50.50.50.13"
+    ], 
+    "policy-space-name": "common", 
+    "attributes": {
+        "vm-name": "snat|overcloud-compute-0.localdomain|uni:tn-common:out-l3out-2:instP-l3out_2_net"
+    }, 
+    "promiscuous-mode": true, 
+    "endpoint-group-name": "osd10-fab3_OpenStack|EXT-l3out-2", 
+    "uuid": "c47d3a21-b112-4516-ba2f-5e159b6c9e6a"
+}

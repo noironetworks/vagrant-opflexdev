@@ -1,0 +1,70 @@
+{
+    "neutron-metadata-optimization": true, 
+    "dhcp4": {
+        "domain": "openstacklocal", 
+        "static-routes": [
+            {
+                "dest": "0.0.0.0", 
+                "next-hop": "40.40.40.1", 
+                "dest-prefix": 0
+            }, 
+            {
+                "dest": "169.254.0.0", 
+                "next-hop": "40.40.40.2", 
+                "dest-prefix": 16
+            }
+        ], 
+        "ip": "40.40.40.12", 
+        "interface-mtu": 1496, 
+        "prefix-len": 24, 
+        "server-mac": "fa:16:3e:ba:97:b7", 
+        "routers": [
+            "40.40.40.1"
+        ], 
+        "server-ip": "40.40.40.2", 
+        "dns-servers": [
+            "40.40.40.2"
+        ]
+    }, 
+    "access-interface": "tap1ba834ab-50", 
+    "ip": [
+        "40.40.40.12"
+    ], 
+    "promiscuous-mode": false, 
+    "anycast-return-ip": [
+        "40.40.40.12"
+    ], 
+    "mac": "fa:16:3e:fe:b1:80", 
+    "domain-name": "DefaultVRF", 
+    "domain-policy-space": "prj_dfe9c3cd8b0c40b79495bf264f1d73aa", 
+    "ip-address-mapping": [
+        {
+            "mapped-ip": "40.40.40.12", 
+            "next-hop-mac": "ee:fe:b3:2b:c9:1e", 
+            "uuid": "db5503a1-9902-4adb-8acc-0993bf39fbd8", 
+            "floating-ip": "169.254.0.0", 
+            "next-hop-if": "of-cde81812ffc0", 
+            "policy-space-name": "common", 
+            "endpoint-group-name": "osd10-fab3_OpenStack|EXT-l3out-2"
+        }
+    ], 
+    "endpoint-group-name": "OpenStack|net_c0f4f79d-a188-4fe2-8b6e-0ec9ae3fa1b3", 
+    "access-uplink-interface": "qpf1ba834ab-50", 
+    "neutron-network": "c0f4f79d-a188-4fe2-8b6e-0ec9ae3fa1b3", 
+    "interface-name": "qpi1ba834ab-50", 
+    "security-group": [
+        {
+            "policy-space": "prj_dfe9c3cd8b0c40b79495bf264f1d73aa", 
+            "name": "14e241f5-8b49-4877-8f58-e44335b0ab7c"
+        }, 
+        {
+            "policy-space": "common", 
+            "name": "osd10-fab3_DefaultSecurityGroup"
+        }
+    ], 
+    "uuid": "1ba834ab-5072-48ef-a3e2-e2a34e1a4c44|fa-16-3e-fe-b1-80", 
+    "policy-space-name": "prj_dfe9c3cd8b0c40b79495bf264f1d73aa", 
+    "attributes": {
+        "vm-name": "24b7f773-fc65-47a1-b560-42b539911473"
+    }
+}

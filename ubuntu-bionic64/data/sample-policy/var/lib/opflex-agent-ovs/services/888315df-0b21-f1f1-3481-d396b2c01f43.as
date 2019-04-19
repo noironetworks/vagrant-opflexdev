@@ -1,0 +1,1 @@
+{"uuid": "888315df-0b21-f1f1-3481-d396b2c01f43", "domain-name": "DefaultVRF", "service-mac": "6a:20:b2:4b:cf:11", "domain-policy-space": "prj_dfe9c3cd8b0c40b79495bf264f1d73aa", "service-mapping": [{"gateway-ip": "169.254.1.1", "service-ip": "169.254.169.254", "next-hop-ip": "169.254.240.3"}], "interface-name": "of-svc-ovsport"}
